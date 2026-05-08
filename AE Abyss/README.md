@@ -42,4 +42,3 @@ The project primarily uses the following libraries:
 
 ---
 
-*AE Abyss - Local AI Power for Elite Developers.*
