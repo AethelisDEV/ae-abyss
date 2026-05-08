@@ -1,0 +1,28 @@
+[package]
+name = "ae-abyss"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+candle-core = { version = "0.9.2", features = ["cuda"] }
+candle-nn = { version = "0.9.2" }
+candle-transformers = { version = "0.9.2", features = ["cuda"] }
+tokenizers = "0.21.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+# Keep cudarc git version for CUDA 13.2 support
+cudarc = { version = "0.19.4", features = ["std", "driver", "nvrtc", "curand", "cublas"] }
+
+# UI & Async
+eframe = "0.31.0"
+egui = "0.31.0"
+egui_extras = { version = "0.31.0", features = ["all_loaders"] }
+tokio = { version = "1.43", features = ["full"] }
+image = "0.25.5"
+rfd = "0.15"
+sysinfo = "0.33.1"
+similar = "2.7.0"
+
+[patch.crates-io]
+cudarc = { git = "https://github.com/coreylowman/cudarc" }
