@@ -16,18 +16,18 @@ AE Abyss provides developers with an intelligent coding assistant that runs comp
 To compile and run the project, make sure you have Rust (Cargo) and the CUDA Toolkit (if using an NVIDIA GPU) installed on your system.
 
 ### 1. Clone the Repository
-
+```
 git clone https://github.com/AethelisDEV/ae-abyss.git
 cd ae-abyss
-
+```
 ### 2. Prepare the Models
 
 Place your .gguf model files inside the models/ directory. Check models/README.md for specific naming conventions and configurations.
 
 ### 3. Build & Run (Optimized)
-'''
+```bash
 cargo run --release
-'''
+```
 🔑 Is an API Key Required?
 
 **No.** AE Abyss is designed to work entirely offline. You do not need any API keys from OpenAI, Anthropic, or Google. Simply download the weight files and let your GPU do the heavy lifting.
