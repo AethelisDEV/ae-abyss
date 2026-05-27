@@ -25,9 +25,9 @@ cd ae-abyss
 Place your .gguf model files inside the models/ directory. Check models/README.md for specific naming conventions and configurations.
 
 ### 3. Build & Run (Optimized)
-
+'''
 cargo run --release
-
+'''
 🔑 Is an API Key Required?
 
 **No.** AE Abyss is designed to work entirely offline. You do not need any API keys from OpenAI, Anthropic, or Google. Simply download the weight files and let your GPU do the heavy lifting.
