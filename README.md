@@ -16,31 +16,31 @@ AE Abyss provides developers with an intelligent coding assistant that runs comp
 To compile and run the project, make sure you have Rust (Cargo) and the CUDA Toolkit (if using an NVIDIA GPU) installed on your system.
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/AethelisDEV/ae-abyss.git](https://github.com/AethelisDEV/ae-abyss.git)
+
+git clone https://github.com/AethelisDEV/ae-abyss.git
 cd ae-abyss
-2. Prepare the Models
+
+### 2. Prepare the Models
+
 Place your .gguf model files inside the models/ directory. Check models/README.md for specific naming conventions and configurations.
 
-3. Build & Run (Optimized)
-Bash
+### 3. Build & Run (Optimized)
+
 cargo run --release
+
 🔑 Is an API Key Required?
 
-No. AE Abyss is designed to work entirely offline. You do not need any API keys from OpenAI, Anthropic, or Google. Simply download the weight files and let your GPU do the heavy lifting.
+**No.** AE Abyss is designed to work entirely offline. You do not need any API keys from OpenAI, Anthropic, or Google. Simply download the weight files and let your GPU do the heavy lifting.
 
 📦 Core Dependencies
 
 The project is built on top of the modern Rust ecosystem following absolute safe standards:
-
-Candle: A lightweight, minimalist machine learning framework by HuggingFace for tensor operations.
-
-egui: An extremely fast, immediate-mode GUI library for zero-stutter rendering.
-
-Tokio: Production-grade asynchronous runtime for handling model loading and stream orchestration.
+* **Candle:** A lightweight, minimalist machine learning framework by HuggingFace for tensor operations.
+* **egui:** An extremely fast, immediate-mode GUI library for zero-stutter rendering.
+* **Tokio:** Production-grade asynchronous runtime for handling model loading and stream orchestration.
 
 📄 License
 
-This project is licensed under the Apache License 2.0. For more details, see the LICENSE and NOTICE files included in this repository.
+This project is licensed under the **Apache License 2.0**. For more details, see the `LICENSE` and `NOTICE` files included in this repository.
 
-Developed with 🦀 by AethelisDEV
+Developed with 🦀 by [AethelisDEV](https://github.com/AethelisDEV)
