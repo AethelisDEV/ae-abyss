@@ -41,6 +41,6 @@ The project is built on top of the modern Rust ecosystem following absolute safe
 
 📄 License
 
-This project is licensed under the **Apache License 2.0**. For more details, see the `LICENSE` and `NOTICE` files included in this repository.
+This project is licensed under the **Apache License 2.0**. For more details, see the [LICENSE](`LICENSE`) and [NOTICE](`NOTICE`) files included in this repository.
 
 Developed with 🦀 by [AethelisDEV](https://github.com/AethelisDEV)
